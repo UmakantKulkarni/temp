@@ -49,6 +49,10 @@ wget https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz
 tar xvf ffmpeg-git-amd64-static.tar.xz
 sudo mv ffmpeg-git-20220910-amd64-static/ffmpeg ffmpeg-git-20220910-amd64-static/ffprobe /usr/local/bin/
 
+apt-get -y update
+apt -y install python3-pip vim tshark tcpdump curl wget git mono-runtime unzip zip p7zip-full efibootmgr jq tcpreplay
+pip3 install pandas numpy scipy scapy tsfresh
+
 
 #--------install gstreamer, glib, vmaf, ffmpeg--------- opencv-----
 #sudo apt update
