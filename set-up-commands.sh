@@ -5,8 +5,8 @@
 
 cd /opt
 
-#git clone https://github.com/UmakantKulkarni/flwlb.git
-#cd flwlb
+git clone https://github.com/UmakantKulkarni/flwlb.git
+cd flwlb
 ./p4setup.sh
 
 
